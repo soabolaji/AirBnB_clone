@@ -163,7 +163,11 @@ class TestFileStorage_methods(unittest.TestCase):
         self.assertIn("Amenity." + am.id, objs)
         self.assertIn("Review." + rv.id, objs)
 
+<<<<<<< HEAD
     """def test_reload_no_file(self):
+=======
+    """def test_reload_no_file(self)
+>>>>>>> 2d46acc9c0b62e511d46006da59c2e40a68d5f79
         self.assertRaises(FileNotFoundError, models.storage.reload())"""
 
     def test_reload_with_arg(self):
